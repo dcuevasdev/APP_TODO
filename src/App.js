@@ -4,13 +4,12 @@ import { TodoSearch } from "./TodoSearch";
 import { TodoList } from "./TodoList";
 import { TodoItem } from "./TodoItem";
 import { CreateTodoButton } from "./CreateTodoButton";
-import "./App.css";
 
 const defaultTodos = [
-  { text: "cortar cebolla", completed: true },
-  { text: "Tomar el curso", completed: false },
-  { text: "Llorar con la llorona", completed: false },
-  { text: "Hacer la compra", completed: false },
+  { text: "cut onion", completed: true },
+  { text: "Take a course", completed: false },
+  { text: "Crying with", completed: false },
+  { text: "Go shopping", completed: false },
 ];
 
 function App() {
